@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/z"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trikonasana">
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="56dp"
+        android:text="BACK!"
+        android:onClick="back"
+        app:backgroundTint="#A56D1C" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="false"
+        android:layout_marginEnd="135dp"
+
+        android:layout_marginBottom="431dp"
+        android:text="00.00"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="349dp"
+        android:text="Start"
+        app:backgroundTint="#A56D1C" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="351dp"
+        android:text="Reset"
+        app:backgroundTint="#A56D1C" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="145dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="493dp"
+        app:srcCompat="@drawable/xvyx" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="117dp"
+        app:srcCompat="@drawable/triko" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="550dp"
+        android:background="@drawable/spek"
+        android:onClick="pause"
+        android:text="PAUSE!!"
+        android:textColor="#0B0505"
+        app:backgroundTint="#A56D1C" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="502dp"
+        android:background="@drawable/spek"
+        android:onClick="play"
+        android:text="PALY!!"
+        android:textColor="#100C0C"
+        app:backgroundTint="#A56D1C" />
+
+
+</RelativeLayout>

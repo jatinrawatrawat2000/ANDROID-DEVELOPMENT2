@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    tools:context=".shavasana">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="63dp"
+        android:onClick="back"
+        android:text="Back!"
+        app:backgroundTint="#A56D1C" />
+
+    <TextView
+        android:id="@+id/text_view_count"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="false"
+        android:layout_marginEnd="135dp"
+
+        android:layout_marginBottom="431dp"
+        android:text="00.00"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button_start_pau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="349dp"
+        android:text="Start"
+        app:backgroundTint="#A56D1C" />
+
+    <Button
+        android:id="@+id/button_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="351dp"
+        android:text="Reset"
+        app:backgroundTint="#A56D1C" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="155dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="502dp"
+        app:srcCompat="@drawable/lotus" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="125dp"
+        app:srcCompat="@drawable/shavana" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="504dp"
+        android:background="@drawable/spek"
+        android:onClick="play"
+        android:text="PLAY!!"
+        android:textColor="#090404"
+        app:backgroundTint="#A56D1C" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="453dp"
+        android:background="@drawable/spek"
+        android:onClick="pause"
+        android:text="PAUSE!!"
+        android:textColor="#020101"
+        app:backgroundTint="#A56D1C" />
+
+</RelativeLayout>
